@@ -8,10 +8,9 @@ import org.openqa.selenium.WebDriver;
 
 // Класс страницы c куки
 public class CookiePageSamokat {
-
     private final WebDriver driver;
     // Кнопка Закрыть инфоэкран пр куки
-    By buttonId = By.id("rcc-confirm-button");
+    private final By buttonId = By.id("rcc-confirm-button");
 
 
     // конструктор класса
